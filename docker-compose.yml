@@ -34,7 +34,7 @@ services:
       start_period: 30s
     networks:
       - notes-app-nw
-    tty: true
+    
 
   db:
     image: mysql
